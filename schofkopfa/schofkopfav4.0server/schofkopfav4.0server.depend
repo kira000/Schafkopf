@@ -1,0 +1,89 @@
+# depslib dependency file v1.0
+1353231989 source:c:\users\robert\desktop\schofkopfav4.0nei\schofkopfav4.0server\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<windows.h>
+	<winsock2.h>
+	<string.h>
+
+1353232634 source:c:\users\michael\desktop\schofkopfav4.0nei\schofkopfav4.0server\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<windows.h>
+	<winsock2.h>
+	<string.h>
+
+1353610940 source:c:\users\michael\desktop\schofkopfav4.0neibeta\schofkopfav4.0server\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<windows.h>
+	<winsock2.h>
+	<string.h>
+
+1353656073 source:h:\daten\schofkopfa\schofkopfav4.0neibeta\schofkopfav4.0server\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<windows.h>
+	<winsock2.h>
+	<string.h>
+
+1354267770 source:d:\schofkopfav4.0neibeta\schofkopfav4.0server\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<windows.h>
+	<winsock2.h>
+	<string.h>
+
+1354463755 source:c:\users\robert\desktop\schofkopfav4.0neibeta\schofkopfav4.0server\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<windows.h>
+	<winsock2.h>
+	<string.h>
+
+1354737569 source:c:\users\michael\desktop\schofkopfa aktuell 03.12.12 15.00uhr\schofkopfav4.0neibeta\schofkopfav4.0server\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<windows.h>
+	<winsock2.h>
+	<string.h>
+
+1354858053 source:c:\users\robert\desktop\neuer ordner\schofkopfa aktuell 05.12.12 21.23uhr\schofkopfav4.0neibeta\schofkopfav4.0server\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<windows.h>
+	<winsock2.h>
+	<string.h>
+
+1354858576 source:c:\users\robert\desktop\schofkopfa aktuell 07.12.12 11.21uhr\schofkopfav4.0neibeta\schofkopfav4.0server\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<windows.h>
+	<winsock2.h>
+	<string.h>
+
+1355860985 source:c:\schofkopfa aktuell 07.12.12 11.21uhr\schofkopfav4.0neibeta\schofkopfav4.0server\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<windows.h>
+	<winsock2.h>
+	<string.h>
+
+1356958843 source:c:\users\robert\desktop\schofkopfa aktuell 18.12.12 21.14uhr\schofkopfav4.0neibeta\schofkopfav4.0server\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<windows.h>
+	<winsock2.h>
+	<string.h>
+

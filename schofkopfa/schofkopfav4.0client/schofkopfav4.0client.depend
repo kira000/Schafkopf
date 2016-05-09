@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1353229086 source:c:\users\robert\desktop\schofkopfav4.0nei\schofkopfav4.0client\main.c
+	<stdio.h>
+	<stdlib.h>
+	<winsock2.h>
+	<string.h>
+
+1353229088 source:c:\users\michael\desktop\schofkopfav4.0neibeta\schofkopfav4.0client\main.c
+	<stdio.h>
+	<stdlib.h>
+	<winsock2.h>
+	<string.h>
+
+1353229088 source:d:\schofkopfav4.0neibeta\schofkopfav4.0client\main.c
+	<stdio.h>
+	<stdlib.h>
+	<winsock2.h>
+	<string.h>
+
+1354738760 source:c:\users\robert\desktop\neuer ordner\schofkopfa aktuell 05.12.12 21.23uhr\schofkopfav4.0neibeta\schofkopfav4.0client\main.c
+	<stdio.h>
+	<stdlib.h>
+	<winsock2.h>
+	<string.h>
+
