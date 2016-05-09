@@ -15,8 +15,7 @@ typedef struct doubleint{
     int b;
 } DI;
 
-// schau ganz obe bevorsd wosd machsd
-// hob i da mei angsd hoid si in grenzn :P
+
 
 void mischen_austeilen (char *alle_spieler[4][8], char karten[4][8][16], int vergeben[4][8]);
 int mitspieler_bestimmen(DI spielerteam, char *alle_spieler[4][8], int gespielte_sau, char karten[4][8][16]);
@@ -181,12 +180,12 @@ int main()
     spielanfang_ausspieler = 0;
     aktueller_ausspieler = 0;
 
-    for(j=0;j<4;j++){
+    /*for(j=0;j<4;j++){
 
         sendenschleife(client_sock, "cls", 0);
         sendenschleife(client_sock, "\n\n\n\n\n\n\n\n\n\t\t\tGib mir einen Euro\n", 1);
         sendenschleife(client_sock, "cls", 0);
-    }
+    }*/
 
     //Beep(13000,1000);
 
@@ -245,7 +244,7 @@ int main()
                         sendentext(client_sock, spielerteam.a, "do mechd i da extra heifa und dia s'lebn einfacher macha");
                         sendentext(client_sock, spielerteam.a, "und du mechsd mas damit danga dasd wosd eigibsd wos i da ned vorgebn hob");
                         sendentext(client_sock, spielerteam.a, "kannsd gern versuacha oba i loss di ned weida mocha bisd ned \"j\" oda \"n\" eigebn hosd");
-                        sendentext(client_sock, spielerteam.a, "bisd ned \"j\" oda \"n\" eigebn hosd\n");
+                        //sendentext(client_sock, spielerteam.a, "bisd ned \"j\" oda \"n\" eigebn hosd\n");
                         sendentext(client_sock, spielerteam.a, "also machs gscheid oda du wirsd von deine mitspieler gschlogn");
                     }
 
@@ -316,7 +315,7 @@ int main()
             if(spieltyp.a==5){sendentext(client_sock, spielerteam.a,"blurg");sendenpauseeinzel(&client_sock[spielerteam.a], spielerteam.a);}
             if(spieltyp.a<1 || spieltyp.a>4){
                 sendentext(client_sock, spielerteam.a, "farbwenz oda farbgeier gibs einfach ned und wos andas als des wos om stehd mog i ned spuin");
-                sendentext(client_sock, spielerteam.a, "also gib wos gscheids ei oda i ruaf bei da sonderschui das da an blotz freihoidn soin weilsd ned a richtige zahl eitippn kannsd");
+                sendentext(client_sock, spielerteam.a, "also gib wos gscheids ei oda i ruaf bei da sonderschui a das da an blotz freihoidn soin weilsd ned a richtige zahl eitippn kannsd");
                 sendenpauseeinzel(client_sock,spielerteam.a);
             }
         }while(spieltyp.a<1 || spieltyp.a>4);
@@ -1648,20 +1647,4 @@ char eingaben(int *client_sock, char *text, int spieler){
 
 
 
-/*einzelpause(int *client_sock, spieler){
-
-    char *buffer = (char*) malloc (BUF);
-    int i=0;
-    buffer = "pause";
-
-    for(i=0;i<3;i++)
-    eingaben(client_sock[spieler], buffer, spieler);
-
-}*/
-
-//  copyright by Robert Kiesenbauer
-//  any illegal copying will result in death
-
-
-// schofkopfa version 3.2(solo)       31.12.2012	21:14:03,71
 
